@@ -1,186 +1,183 @@
-*{
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    /* background-color: rgba(70,70,70); */
-    color: lightgray;
-      text-align: center;
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  /* background-color: rgba(70,70,70); */
+  color: lightgray;
+  text-align: center;
 }
-body{
-    text-align: center;
-        /* background-color: rgba(70,70,70); */
+body {
+  text-align: center;
+  /* background-color: rgba(70,70,70); */
 }
-#white{
+#white {
   color: lightgray;
 }
-b{
+b {
   font-variant: small-caps;
   margin-left: 40px;
   font-size: 30px;
   font-style: italic;
 }
 /* --NavBar---- */
-.navbar{
-  background-color: rgba(70,70,70);
+.navbar {
+  background-color: rgba(70, 70, 70);
   border-bottom: solid 4px limegreen;
 }
-.nav-item:hover{
-  background-color: rgba(0,0,0,0.4);
+.nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.4);
 }
-.navbar-brand{
-    font-size: 10rem;
+.navbar-brand {
+  font-size: 10rem;
 }
-.second-sec{
+.second-sec {
   text-align: center;
   width: 60%;
   position: relative;
   left: 20%;
   top: 20px;
 }
-.card-body{
-  background-color: rgba(0,0,0,0.8)
+.card-body {
+  background-color: rgba(0, 0, 0, 0.8);
 }
-.navbar-nav{
-    display: flex;
-    flex: 1;
-    justify-content: flex-end;
+.navbar-nav {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
 }
 
-.nav-item,.navbar-brand{
-    padding: 8px 30px;
+/* styling the contact sections */
+
+.contact-heading {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
-#_features{
-  background-color:rgba(110,110,110);
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item,
+.navbar-brand {
+  padding: 8px 30px;
+}
+#_features {
+  background-color: rgba(110, 110, 110);
 }
 /* ---Nav Bar----- */
 
 /* ----First-sec---- */
-.carousel-item{
+.carousel-item {
   overflow: hidden;
   height: 50vh;
 }
 .carousel-item img {
-    width: 100% !important;
-    /* height: 50vh; */
-    opacity: 0.9;
-    position: relative;
-    bottom: 100%;
+  width: 100% !important;
+  /* height: 50vh; */
+  opacity: 0.9;
+  position: relative;
+  bottom: 100%;
 }
 
 /* ----First-sec---- */
 
-
-
-
 /* Contact Us */
-.cta-add p{
-    margin: 0;
-    margin-bottom: 0px;
+.cta-add p {
+  margin: 0;
+  margin-bottom: 0px;
 }
 
-.contact{
-
-    text-align: center;
-    padding: 50px 50px;
+.contact {
+  text-align: center;
+  padding: 50px 50px;
 }
-.tags a{
-    color: inherit;
-    text-decoration: none;
+.tags a {
+  color: inherit;
+  text-decoration: none;
 }
-.tags a:hover{
-    text-decoration:none;
-    cursor:pointer;
-}
-
-.tags{
-    padding: 20px ;
+.tags a:hover {
+  text-decoration: none;
+  cursor: pointer;
 }
 
-
+.tags {
+  padding: 20px;
+}
 
 /* Contact Us */
 
-
-
-
-
 /* --Features */
 
-.fet-icon{
-    height: 50px;
+.fet-icon {
+  height: 50px;
 }
 
-.second-sec{
-    /* background-color: #e6ffff; */
-    padding: 40px 30px;
-    display: flex;
+.second-sec {
+  /* background-color: #e6ffff; */
+  padding: 40px 30px;
+  display: flex;
 }
 
 /* --Features */
-
-
 
 /* CArd */
 
-.card-deck{
-    padding: 40px 30px;
-    margin: 0 ;
+.card-deck {
+  padding: 40px 30px;
+  margin: 0;
 }
-.lrg{
+.lrg {
   height: 65%;
 }
-.card-deck{
+.card-deck {
   width: 80%;
   position: relative;
   left: 10%;
 }
-.card:hover{
+.card:hover {
   border: solid 2px green;
 }
 
-.card img{
-    /* height: 50%; */
-    /* width: 60%; */
-    display: block;
+.card img {
+  /* height: 50%; */
+  /* width: 60%; */
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-@media (min-width: 576px){
-    .card-deck{
-        margin-right: 0px !important;
-        margin-left: 0px !important;
-    }
-
+@media (min-width: 576px) {
+  .card-deck {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
 }
-
-
-
 
 /* Card */
 
-
-
 /* Patners */
 
-.pat-icon{
-    height: 100px;
-    /* width: 120px; */
-    padding: 13px 10px ;
-    display: block;
+.pat-icon {
+  height: 100px;
+  /* width: 120px; */
+  padding: 13px 10px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.pat-head{
-    text-align: center;
-    font-size: 200px;
-    padding: 30px 30px;
-    height: 30px;
+.pat-head {
+  text-align: center;
+  font-size: 200px;
+  padding: 30px 30px;
+  height: 30px;
 }
 
-.thrid-sec{
-    padding: 40px 30px;
-    display: flex;
+.thrid-sec {
+  padding: 40px 30px;
+  display: flex;
 }
