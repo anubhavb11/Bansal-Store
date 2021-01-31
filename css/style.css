@@ -129,6 +129,12 @@
   padding: 40px 30px;
 }
 
+.scratch-card-border h2 {
+  text-align: center;
+  color: white;
+  font-family: "Potta One", cursive;
+}
+
 .scratch-card {
   /* background-color: orange
    !important; */

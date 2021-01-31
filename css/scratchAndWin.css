@@ -15,6 +15,7 @@ body {
 
 .bansal-store {
   color: white;
+  font-family: "Potta One", cursive;
 }
 
 .bansal-store h1 {
@@ -55,6 +56,7 @@ h3 {
   text-align: center;
   /* color: #2c2c54; */
   color: white;
+  font-family: "Potta One", cursive;
 }
 
 .canvas {
